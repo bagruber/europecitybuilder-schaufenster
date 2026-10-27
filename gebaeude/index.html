@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#cdd8de" />
+    <title>Bauten</title>
+    <script type="module" crossorigin src="../assets/gebaeude-Bm3ifA9f.js"></script>
+    <link rel="modulepreload" crossorigin href="../assets/figuren-DXjV47dq.js">
+    <link rel="stylesheet" crossorigin href="../assets/figuren-Cul-cGFG.css">
+  </head>
+  <body>
+    <canvas id="leinwand"></canvas>
+    <div class="laedt" aria-hidden="true"><span></span></div>
+    <nav class="leiste" aria-label="Bauten">
+      <div class="gruppe">
+        <button id="zurueck" aria-label="Voriger Bau">‹</button>
+        <select id="bau" aria-label="Bau"></select>
+        <button id="vor" aria-label="Nächster Bau">›</button>
+      </div>
+      <div class="gruppe">
+        <button id="nachbarn" aria-pressed="true">Nachbarn</button>
+        <button id="wuerfeln">Würfeln</button>
+      </div>
+      <div class="gruppe">
+        <button id="nacht" aria-pressed="false">Nacht</button>
+      </div>
+      <div class="gruppe">
+        <button data-jahr="fruehling" aria-pressed="false">Frühling</button>
+        <button data-jahr="sommer" aria-pressed="true">Sommer</button>
+        <button data-jahr="herbst" aria-pressed="false">Herbst</button>
+        <button data-jahr="winter" aria-pressed="false">Winter</button>
+      </div>
+    </nav>
+  </body>
+</html>
