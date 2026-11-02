@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#cdd8de" />
+    <title>Schaufenster</title>
+    <script type="module" crossorigin src="../assets/stadt-DC7W0wLb.js"></script>
+    <link rel="modulepreload" crossorigin href="../assets/boden-DEicxFLs.js">
+    <link rel="modulepreload" crossorigin href="../assets/OrbitControls-BhuEjmS0.js">
+    <link rel="modulepreload" crossorigin href="../assets/buehne-DKOKXoD3.js">
+    <link rel="stylesheet" crossorigin href="../assets/OrbitControls-DePFsVIq.css">
+  </head>
+  <body>
+    <canvas id="leinwand"></canvas>
+    <div class="laedt" aria-hidden="true"><span></span></div>
+    <nav class="leiste" aria-label="Werkzeuge">
+      <div class="gruppe"><a href="../">Übersicht</a></div>
+      <div class="gruppe">
+        <button data-werkzeug="kate" aria-pressed="false">Kate</button>
+        <button data-werkzeug="haus" aria-pressed="false">Patrizierhaus</button>
+        <button data-werkzeug="auf" aria-pressed="false">Ausbauen</button>
+        <button data-werkzeug="ab" aria-pressed="false">Abreißen</button>
+        <button id="wuerfeln">Würfeln</button>
+      </div>
+      <div class="gruppe">
+        <button id="nacht" aria-pressed="false">Nacht</button>
+        <button id="stimmung" aria-pressed="true">Stimmung</button>
+      </div>
+      <div class="gruppe">
+        <button data-jahr="fruehling" aria-pressed="false">Frühling</button>
+        <button data-jahr="sommer" aria-pressed="true">Sommer</button>
+        <button data-jahr="herbst" aria-pressed="false">Herbst</button>
+        <button data-jahr="winter" aria-pressed="false">Winter</button>
+      </div>
+    </nav>
+  </body>
+</html>

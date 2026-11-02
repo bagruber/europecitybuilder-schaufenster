@@ -3,35 +3,24 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-    <meta name="theme-color" content="#cdd8de" />
-    <title>Schaufenster</title>
-    <script type="module" crossorigin src="./assets/stadt-CYNZxxzV.js"></script>
-    <link rel="modulepreload" crossorigin href="./assets/boden-DEicxFLs.js">
-    <link rel="modulepreload" crossorigin href="./assets/OrbitControls-De71UM7I.js">
-    <link rel="modulepreload" crossorigin href="./assets/buehne-DKOKXoD3.js">
-    <link rel="stylesheet" crossorigin href="./assets/OrbitControls-Cul-cGFG.css">
+    <meta name="theme-color" content="#22302b" />
+    <title>europecitybuilder</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&family=Barlow:wght@400;500;600&display=swap" />
+    <link rel="stylesheet" crossorigin href="./assets/uebersicht-CVssnIFc.css">
   </head>
   <body>
-    <canvas id="leinwand"></canvas>
-    <div class="laedt" aria-hidden="true"><span></span></div>
-    <nav class="leiste" aria-label="Werkzeuge">
-      <div class="gruppe">
-        <button data-werkzeug="kate" aria-pressed="false">Kate</button>
-        <button data-werkzeug="haus" aria-pressed="false">Patrizierhaus</button>
-        <button data-werkzeug="auf" aria-pressed="false">Ausbauen</button>
-        <button data-werkzeug="ab" aria-pressed="false">Abreißen</button>
-        <button id="wuerfeln">Würfeln</button>
-      </div>
-      <div class="gruppe">
-        <button id="nacht" aria-pressed="false">Nacht</button>
-        <button id="stimmung" aria-pressed="true">Stimmung</button>
-      </div>
-      <div class="gruppe">
-        <button data-jahr="fruehling" aria-pressed="false">Frühling</button>
-        <button data-jahr="sommer" aria-pressed="true">Sommer</button>
-        <button data-jahr="herbst" aria-pressed="false">Herbst</button>
-        <button data-jahr="winter" aria-pressed="false">Winter</button>
-      </div>
-    </nav>
+    <img class="bild" src="./assets/uebersicht-DnLzlHCT.jpg" alt="" />
+    <main>
+      <h1>europecitybuilder</h1>
+      <p>Ein warmer, verspielter Städtebauer im Alpenraum, beginnend mit Moosburg an der Isar. Noch in Arbeit.</p>
+      <nav aria-label="Seiten">
+        <a href="spiel/"><b>Spiel</b><span>Von Anfang an: die ersten Katen, Holz und Lehm, echte Laufwege.</span></a>
+        <a href="stadt/"><b>Schaufenster</b><span>Eine kleine gewürfelte Stadt, mit Nacht und Jahreszeiten.</span></a>
+        <a href="gebaeude/"><b>Bauten</b><span>Häuser, Betriebe, Wahrzeichen und Ensembles einzeln.</span></a>
+        <a href="ui/"><b>UI-Skizze</b><span>Die Bedienung an einer fertigen Stadt, für Telefon und PC.</span></a>
+      </nav>
+    </main>
   </body>
 </html>
